@@ -13,10 +13,13 @@ header h1 {
 	font-size: 64px;
 	font-weight: 300;
 	margin: 80px 0 25px;
-	color: #2c3e50;
+	color: #2c3e50;	
+	text-shadow: 3px 2px 3px #9e9e97;
 }
 header h1 span {
 	font-weight: 700;
+	color: #4a4aeccc;
+
 }
 header h2 {
 	color: #bdc3c7;
@@ -53,10 +56,14 @@ header h2 {
 	font-size: 20px;
 	padding: 0 20px;
 	color: #34495e;
-	transition: all .3s ease;
+	transition: all .5s ease;
+}
+
+.task:nth-child(even) {
+	background: #e6e6e6;
 }
 .task:hover {
-	background: rgba(0, 0, 0, .02);
+	background: rgba(255, 255, 255, 0.34);
 	cursor: pointer;
 }
 
@@ -74,8 +81,10 @@ li span {
   color: #c0392b;
   transition: all 0.3s;
   opacity: 0;
+  font-weight: 400;
 }
 
 li span:hover {
-  color: #e74c3c
+  color: #e74c3c;
+  font-weight: 700;
 }
