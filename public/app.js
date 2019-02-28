@@ -33,7 +33,7 @@ function addTodo(todo){
   if(todo.completed){
     newTodo.addClass("done");
   }
-  $('.list').append(newTodo);
+  $('.list').prepend(newTodo);
 }
 
 function createTodo(){
